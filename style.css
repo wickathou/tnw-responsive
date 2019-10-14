@@ -1,0 +1,341 @@
+/* Debugging */
+
+* {
+    border: solid 1px black;
+    list-style: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+    font-size: 14px;
+}
+
+ul, li, h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+}
+
+/* Positioning */
+
+.pos-rel {
+    position: relative;
+}
+
+.pos-abs {
+    position: absolute;
+}
+
+.center {
+    transform: translateX(-50%) translateY(-50%);
+    left:50%;
+    top: 50%;
+}
+
+.x-center {
+    transform: translateX(-50%);
+    left: 50%;
+}
+
+.y-center {
+    top: 50%;
+}
+
+.bottom-0 {
+    bottom: 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* height/width */
+
+.vh-100 {
+    height: 100vh;
+}
+
+.vw-100 {
+    width: 100vw;
+}
+
+.vh-80 {
+    height: 80vh;
+}
+
+.vw-80 {
+    width: 80vw;
+}
+
+.vh-75 {
+    height: 75vh;
+}
+
+.vw-75 {
+    width: 75vw;
+}
+
+.vh-70 {
+    height: 70vh;
+}
+
+.vw-70 {
+    width: 70vw;
+}
+
+.vh-50 {
+    height: 50vh;
+}
+
+.vw-50 {
+    width: 50vw;
+}
+
+.vh-40 {
+    height: 40vh;
+}
+
+.vw-40 {
+    width: 40vw;
+}
+
+.vh-35 {
+    height: 35vh;
+}
+
+.vw-35 {
+    width: 35vw;
+}
+
+.vh-25 {
+    height: 25vh;
+}
+
+.vw-25 {
+    width: 25vw;
+}
+
+.vh-15 {
+    height: 15vh;
+}
+
+.vw-15 {
+    width: 15vw;
+}
+
+.vh-10 {
+    height: 10vh;
+}
+
+.vw-10 {
+    width: 10vw;
+}
+
+.h-10 {
+    height: 10%;
+}
+
+.w-10 {
+    height: 10%;
+}
+
+.h-15 {
+    height: 15%;
+}
+
+.h-20 {
+    height: 20%;
+}
+
+.w-10 {
+    height: 10%;
+}
+
+.h-30 {
+    height: 30%;
+}
+
+.h-40 {
+    height: 40%;
+}
+
+.h-45 {
+    height: 45%;
+}
+
+.h-60 {
+    height: 60%;
+}
+
+.h-80 {
+    height: 80%;
+}
+
+.h-90 {
+    height: 90%;
+}
+
+/* Borders */
+
+.bl-red-1 {
+    border-left: solid 1px red;
+}
+
+.br-red-1 {
+    border-right: solid 1px red;
+}
+
+.bt-red-1 {
+    border-top: solid 1px red;
+}
+
+.bb-red-1 {
+    border-bottom: solid 1px red;
+}
+
+.bl-red-2 {
+    border-left: solid 2px red;
+}
+
+.br-red-2 {
+    border-right: solid 2px red;
+}
+
+.bt-red-2 {
+    border-top: solid 2px red;
+}
+
+.bb-red-2 {
+    border-bottom: solid 2px red;
+}
+
+.bl-red-3 {
+    border-left: solid 3px red;
+}
+
+.br-red-3 {
+    border-right: solid 3px red;
+}
+
+.bt-red-3 {
+    border-top: solid 3px red;
+}
+
+.bb-red-3 {
+    border-bottom: solid 3px red;
+}
+
+.bl-black-2 {
+    border-left: solid 2px black;
+}
+
+.br-black-2 {
+    border-right: solid 2px black;
+}
+
+.bt-black-2 {
+    border-top: solid 2px black;
+}
+
+.bb-black-2 {
+    border-bottom: solid 2px black;
+}
+
+ul .rounded-circle {
+    height: 30px;
+    width: 30px;
+}
+
+/* Background */
+
+.cover{
+    background-image:linear-gradient(to bottom right, rgba(255, 0, 0, 0.76), rgba(0, 0, 0, 0.205)),
+url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/sextortion-blockchain-cryptocurrency-bitcoin-masturbation-video-hack-796x448.jpg);
+    background-size: cover;
+}
+
+.cover-alt{
+    background-image:linear-gradient(to bottom right, rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.205)),
+url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/file-20191010-188829-s5tlui-796x392.jpg);
+    background-size: cover;
+}
+
+.cover-ext{
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/06/europol-cryptocurrency-lsd-478x270.png);
+    background-size: cover;
+}
+
+.cover-article{
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.089), rgba(0, 0, 0, 0.774)),
+url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/header-image-how-to-watch-google-event-368x276.png);
+    background-size: cover;
+}
+
+.cover-latest{
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/IMG_20180309_133335-e1570733488894.jpg);
+    background-size: cover;
+}
+
+.cover-deals{
+    background-image: url(https://cdnp3.stackassets.com/7dde8c7748d6d3b1830a5134c8a5b9c25426b862/store/7a9f7a8e97c45e5a9af6e69c88da1dec41c12ea821b7009100f65115039a/sale_17182_primary_image.jpg);
+    background-size: cover;
+}
+
+.logo-cover {
+    background: transparent url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg) no-repeat;
+    width: 500px;
+    height: 112px;
+}
+
+.bg-grey {
+    background-color: rgb(53, 53, 53);
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-lightpink {
+    background-color: rgb(255, 235, 238);
+}
+
+.bg-salmon {
+    background-color: rgb(255, 208, 203);
+}
+
+/* Colors */
+
+.text-red {
+    color: red;
+}
+
+.text-black {
+    color: black;
+}
+
+.list-style {
+    list-style: disc;
+    color: red;
+}
+
+/* Other rules  */
+
+.text-through {
+    text-decoration: line-through;
+}
+
+.footer-logo{
+    height: 9px;
+}
