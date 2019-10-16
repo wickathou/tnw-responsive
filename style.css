@@ -319,19 +319,19 @@ ul .rounded-circle {
 
 /* Background */
 
-.cover{
+.cover {
     background-image:linear-gradient(to bottom right, rgba(255, 0, 0, 0.76), rgba(0, 0, 0, 0.205)),
 url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/sextortion-blockchain-cryptocurrency-bitcoin-masturbation-video-hack-796x448.jpg);
     background-size: cover;
 }
 
-.cover-alt{
+.cover-alt {
     background-image:linear-gradient(to bottom right, rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.205)),
 url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/file-20191010-188829-s5tlui-796x392.jpg);
     background-size: cover;
 }
 
-.cover-ext{
+.cover-ext {
     background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/06/europol-cryptocurrency-lsd-478x270.png);
     background-size: cover;
     background-position: center;
@@ -353,7 +353,7 @@ url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/header-image-ho
     width: 60px;
 }
 
-.cover-latest{
+.cover-latest {
     background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/IMG_20180309_133335-e1570733488894.jpg);
     background-size: cover;
     background-position: center;
@@ -361,7 +361,7 @@ url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/header-image-ho
     width: 96px;
 }
 
-.cover-deals{
+.cover-deals {
     background-image: url(https://cdnp3.stackassets.com/7dde8c7748d6d3b1830a5134c8a5b9c25426b862/store/7a9f7a8e97c45e5a9af6e69c88da1dec41c12ea821b7009100f65115039a/sale_17182_primary_image.jpg);
     background-size: cover;
     background-position: center;
@@ -424,7 +424,7 @@ url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/header-image-ho
     text-decoration: line-through;
 }
 
-.footer-logo{
+.footer-logo {
     height: 9px;
 }
 
