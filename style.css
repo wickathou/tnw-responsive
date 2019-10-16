@@ -162,10 +162,6 @@ ul, li, h1, h2, h3, h4, h5, h6 {
     height: 20%;
 }
 
-.w-10 {
-    height: 10%;
-}
-
 .h-30 {
     height: 30%;
 }
@@ -429,8 +425,9 @@ ul .rounded-circle {
 
 .logo-res {
     display: none;
-    background-color: #f42;
     background: linear-gradient(to bottom right,#c09,#f42 85%);
+    background-color: #f42;
+
 }
 
 .landing-logo {
