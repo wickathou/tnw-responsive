@@ -1,0 +1,599 @@
+/* CSS reset */
+
+* {
+    list-style: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+    font-size: 14px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+ul, li, h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+}
+
+.row {
+    margin: 0;
+}
+
+/* Positioning */
+
+.pos-rel {
+    position: relative;
+}
+
+.pos-abs {
+    position: absolute;
+}
+
+.center {
+    transform: translateX(-50%) translateY(-50%);
+    left: 50%;
+    top: 50%;
+}
+
+.x-center {
+    transform: translateX(-50%);
+    left: 50%;
+}
+
+.y-center {
+    transform: translateY(-50%);
+    top: 50%;
+}
+
+.bottom-0 {
+    bottom: 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* height/width */
+
+.vh-100 {
+    height: 100vh;
+}
+
+.vw-100 {
+    width: 100vw;
+}
+
+.vh-80 {
+    height: 80vh;
+}
+
+.vw-80 {
+    width: 80vw;
+}
+
+.vh-75 {
+    height: 75vh;
+}
+
+.vw-75 {
+    width: 75vw;
+}
+
+.vh-70 {
+    height: 70vh;
+}
+
+.vh-res-70 {
+    height: 70vh;
+}
+
+.vw-70 {
+    width: 70vw;
+}
+
+.vh-60 {
+    height: 60vh;
+}
+
+.vh-50 {
+    height: 50vh;
+}
+
+.vw-50 {
+    width: 50vw;
+}
+
+.vh-40 {
+    height: 40vh;
+}
+
+.vw-40 {
+    width: 40vw;
+}
+
+.vh-35 {
+    height: 35vh;
+}
+
+.vw-35 {
+    width: 35vw;
+}
+
+.vh-25 {
+    height: 25vh;
+}
+
+.vw-25 {
+    width: 25vw;
+}
+
+.vh-15 {
+    height: 15vh;
+}
+
+.vw-15 {
+    width: 15vw;
+}
+
+.vh-10 {
+    height: 10vh;
+}
+
+.vw-10 {
+    width: 10vw;
+}
+
+.h-10 {
+    height: 10%;
+}
+
+.w-10 {
+    height: 10%;
+}
+
+.h-15 {
+    height: 15%;
+}
+
+.h-20 {
+    height: 20%;
+}
+
+.h-30 {
+    height: 30%;
+}
+
+.h-30px {
+    height: 30px;
+}
+
+.h-40 {
+    height: 40%;
+}
+
+.h-45 {
+    height: 45%;
+}
+
+.h-60 {
+    height: 60%;
+}
+
+.h-80 {
+    height: 80%;
+}
+
+.h-80px {
+    height: 80px;
+}
+
+.h-90 {
+    height: 90%;
+}
+
+.h-100px {
+    height: 100px;
+}
+
+.w-66px {
+    width: 66px;
+}
+
+.w-106px {
+    width: 106px;
+}
+
+.w-33 {
+    width: 33.3%;
+}
+
+.w-max-235px {
+    max-width: 235px;
+}
+
+.w-max-1192px {
+    max-width: 1192px;
+}
+
+.w-max-ln {
+    max-width: 25%;
+}
+
+.w-max-s {
+    max-width: 33.3%;
+}
+
+/* Borders */
+
+.bl-red-1 {
+    border-left: solid 1px red;
+}
+
+.br-red-1 {
+    border-right: solid 1px red;
+}
+
+.bt-red-1 {
+    border-top: solid 1px red;
+}
+
+.bb-red-1 {
+    border-bottom: solid 1px red;
+}
+
+.bl-red-2 {
+    border-left: solid 2px red;
+}
+
+.br-red-2 {
+    border-right: solid 2px red;
+}
+
+.bt-red-2 {
+    border-top: solid 2px red;
+}
+
+.bb-red-2 {
+    border-bottom: solid 2px red;
+}
+
+.bl-red-3 {
+    border-left: solid 3px red;
+}
+
+.br-red-3 {
+    border-right: solid 3px red;
+}
+
+.bt-red-3 {
+    border-top: solid 3px red;
+}
+
+.bb-red-3 {
+    border-bottom: solid 3px red;
+}
+
+.bl-black-2 {
+    border-left: solid 2px black;
+}
+
+.br-black-2 {
+    border-right: solid 2px black;
+}
+
+.bt-black-2 {
+    border-top: solid 2px black;
+}
+
+.bb-black-2 {
+    border-bottom: solid 2px black;
+}
+
+.bl-grey-2 {
+    border-left: solid 2px grey;
+}
+
+.br-grey-2 {
+    border-right: solid 2px grey;
+}
+
+.bt-grey-2 {
+    border-top: solid 2px grey;
+}
+
+.bb-grey-2 {
+    border-bottom: solid 2px grey;
+}
+
+ul .rounded-circle {
+    height: 30px;
+    width: 30px;
+}
+
+/* Background */
+
+.cover {
+    background-image: linear-gradient(to bottom right, rgba(255, 0, 0, 0.76), rgba(0, 0, 0, 0.205)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/sextortion-blockchain-cryptocurrency-bitcoin-masturbation-video-hack-796x448.jpg);
+    background-size: cover;
+}
+
+.cover-alt {
+    background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.205)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/file-20191010-188829-s5tlui-796x392.jpg);
+    background-size: cover;
+}
+
+.cover-ext {
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/06/europol-cryptocurrency-lsd-478x270.png);
+    background-size: cover;
+    background-position: center;
+    height: 120px;
+}
+
+.cover-article {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.089), rgba(0, 0, 0, 0.774)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/header-image-how-to-watch-google-event-368x276.png);
+    background-size: cover;
+    height: 30vh;
+}
+
+.cover-funding {
+    background-image: url(https://index.tnwcdn.com/images/fd95a60393c2aa27d975e54edceae848d7a0c15e.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 60px;
+    width: 60px;
+}
+
+.cover-latest {
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/IMG_20180309_133335-e1570733488894.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 96px;
+    width: 96px;
+}
+
+.cover-deals {
+    background-image: url(https://cdnp3.stackassets.com/7dde8c7748d6d3b1830a5134c8a5b9c25426b862/store/7a9f7a8e97c45e5a9af6e69c88da1dec41c12ea821b7009100f65115039a/sale_17182_primary_image.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 240px;
+}
+
+.logo-cover {
+    background: transparent url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg) no-repeat;
+    width: 500px;
+    height: 112px;
+}
+
+.bg-grey {
+    background-color: rgb(53, 53, 53);
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-lightpink {
+    background-color: rgb(255, 235, 238);
+}
+
+.bg-salmon {
+    background-color: rgb(255, 208, 203);
+}
+
+/* Colors */
+
+.text-red {
+    color: red;
+}
+
+.text-black {
+    color: black;
+}
+
+.text-lightgrey {
+    color: rgb(71, 71, 71);
+    font-weight: 300;
+}
+
+.list-style {
+    list-style: disc;
+    color: red;
+}
+
+/* Other rules  */
+
+.text-through {
+    text-decoration: line-through;
+}
+
+.footer-logo {
+    height: 9px;
+}
+
+.margin-clearnav {
+    margin-top: 110px;
+}
+
+/* Responsive and media queries */
+
+.logo-res {
+    display: none;
+    background: linear-gradient(to bottom right,#c09,#f42 85%);
+    background-color: #f42;
+}
+
+.landing-logo {
+    display: flex;
+}
+
+.landing {
+    height: 100%;
+}
+
+.d-underlg-none {
+    display: block;
+}
+
+.px-li-1 li {
+    padding-right: 1em;
+}
+
+.px-li-3 li {
+    padding-right: 1em;
+}
+
+.link {
+    cursor: pointer;
+}
+
+.link-social:hover {
+    border: solid 2px grey;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.link-white:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.link-black:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.link-section:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.link-article:hover {
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+h2 {
+    font-family: Avalon,sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+h5 {
+    font-family: Shentox,sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-13 {
+    font-size: 13px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-28 {
+    font-size: 28px;
+}
+
+.fs-56 {
+    font-size: 56px;
+}
+
+.ff-shentox {
+    font-family: Shentox,sans-serif;
+}
+
+.ff-avalon {
+    font-family: Avalon,sans-serif;
+}
+
+@media (max-width: 992px) {
+    .logo-res {
+        display: block;
+    }
+    .landing-logo {
+        display: none;
+    }
+    .w-max-ln {
+        max-width: 33.3%;
+    }
+    .w-max-s {
+        max-width: 50%;
+    }
+    .d-underlg-none {
+        display: none;
+    }
+    .ml-106px {
+    margin-left: 106px;
+    }
+}
+
+@media (max-width: 880px) {
+    .d-under880-none {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .landing {
+        height: 100%;
+    }
+    .w-max-ln {
+        max-width: 100%;
+    }
+    .cover-ext {
+        float: left;
+        height: 75px;
+        width: 75px;
+    }
+    .cover-deals {
+        float: left;
+        height: 75px;
+        width: 75px;
+    }
+    .cover-article {
+        height: 60vh;
+    }
+    .highlight {
+        justify-content: center;
+    }
+    .ml-106px {
+    margin-left: 0;
+    }
+    .vh-res-70 {
+        height: 35vh;
+    }
+}
