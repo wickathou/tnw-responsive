@@ -1,7 +1,6 @@
-/* Debugging */
+/* CSS reset */
 
 * {
-    border: solid 1px black;
     list-style: none;
     box-sizing: border-box;
     padding: 0;
@@ -16,6 +15,10 @@ body {
 
 ul, li, h1, h2, h3, h4, h5, h6 {
     padding: 0;
+    margin: 0;
+}
+
+.row {
     margin: 0;
 }
 
@@ -41,6 +44,7 @@ ul, li, h1, h2, h3, h4, h5, h6 {
 }
 
 .y-center {
+    transform: translateY(-50%);
     top: 50%;
 }
 
@@ -82,8 +86,16 @@ ul, li, h1, h2, h3, h4, h5, h6 {
     height: 70vh;
 }
 
+.vh-res-70 {
+    height: 70vh;
+}
+
 .vw-70 {
     width: 70vw;
+}
+
+.vh-60 {
+    height: 60vh;
 }
 
 .vh-50 {
@@ -158,6 +170,10 @@ ul, li, h1, h2, h3, h4, h5, h6 {
     height: 30%;
 }
 
+.h-30px {
+    height: 30px;
+}
+
 .h-40 {
     height: 40%;
 }
@@ -174,8 +190,44 @@ ul, li, h1, h2, h3, h4, h5, h6 {
     height: 80%;
 }
 
+.h-80px {
+    height: 80px;
+}
+
 .h-90 {
     height: 90%;
+}
+
+.h-100px {
+    height: 100px;
+}
+
+.w-66px {
+    width: 66px;
+}
+
+.w-106px {
+    width: 106px;
+}
+
+.w-33 {
+    width: 33.3%;
+}
+
+.w-max-235px {
+    max-width: 235px;
+}
+
+.w-max-1192px {
+    max-width: 1192px
+}
+
+.w-max-ln {
+    max-width: 25%;
+}
+
+.w-max-s {
+    max-width: 33.3%;
 }
 
 /* Borders */
@@ -244,6 +296,22 @@ ul, li, h1, h2, h3, h4, h5, h6 {
     border-bottom: solid 2px black;
 }
 
+.bl-grey-2 {
+    border-left: solid 2px grey;
+}
+
+.br-grey-2 {
+    border-right: solid 2px grey;
+}
+
+.bt-grey-2 {
+    border-top: solid 2px grey;
+}
+
+.bb-grey-2 {
+    border-bottom: solid 2px grey;
+}
+
 ul .rounded-circle {
     height: 30px;
     width: 30px;
@@ -266,22 +334,38 @@ url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/file-20191010-1
 .cover-ext{
     background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/06/europol-cryptocurrency-lsd-478x270.png);
     background-size: cover;
+    background-position: center;
+    height: 120px;
 }
 
-.cover-article{
+.cover-article {
     background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.089), rgba(0, 0, 0, 0.774)),
 url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/header-image-how-to-watch-google-event-368x276.png);
     background-size: cover;
+    height: 30vh;
+}
+
+.cover-funding {
+    background-image: url(https://index.tnwcdn.com/images/fd95a60393c2aa27d975e54edceae848d7a0c15e.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 60px;
+    width: 60px;
 }
 
 .cover-latest{
     background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/IMG_20180309_133335-e1570733488894.jpg);
     background-size: cover;
+    background-position: center;
+    height: 96px;
+    width: 96px;
 }
 
 .cover-deals{
     background-image: url(https://cdnp3.stackassets.com/7dde8c7748d6d3b1830a5134c8a5b9c25426b862/store/7a9f7a8e97c45e5a9af6e69c88da1dec41c12ea821b7009100f65115039a/sale_17182_primary_image.jpg);
     background-size: cover;
+    background-position: center;
+    height: 240px;
 }
 
 .logo-cover {
@@ -301,7 +385,6 @@ url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/header-image-ho
 .bg-yellow {
     background-color: yellow;
 }
-
 
 .bg-red {
     background-color: red;
@@ -325,6 +408,11 @@ url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/header-image-ho
     color: black;
 }
 
+.text-lightgrey {
+    color: rgb(71, 71, 71);
+    font-weight: 300;
+}
+
 .list-style {
     list-style: disc;
     color: red;
@@ -338,4 +426,171 @@ url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/header-image-ho
 
 .footer-logo{
     height: 9px;
+}
+
+/* Responsive and media queries */
+
+.logo-res {
+    display: none;
+    background-color: #f42;
+    background: linear-gradient(to bottom right,#c09,#f42 85%);
+}
+
+.landing-logo {
+    display: flex;
+}
+
+.landing {
+    height: 100%;
+}
+
+.d-underlg-none {
+    display: block;
+}
+
+.px-li-1 li {
+    padding-right:1em;
+}
+
+.px-li-3 li {
+    padding-right: 1em;
+}
+
+.link {
+    cursor: pointer;
+}
+
+.link-social:hover {
+    border: solid 2px grey;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.link-white:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.link-black:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.link-section:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.link-article:hover {
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+h2 {
+    font-family: Avalon,sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+h5 {
+    font-family: Shentox,sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-13 {
+    font-size: 13px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-28 {
+    font-size: 28px;
+}
+
+.fs-56 {
+    font-size: 56px;
+}
+
+.ff-shentox {
+    font-family: Shentox,sans-serif;
+}
+
+.ff-avalon {
+    font-family: Avalon,sans-serif;
+}
+
+@media (max-width: 992px) {
+    .logo-res {
+        display: block;
+    }
+    .landing-logo {
+        display: none;
+    }
+    .w-max-ln {
+        max-width: 33.3%;
+    }
+    .w-max-s {
+        max-width: 50%;
+    }
+    .d-underlg-none {
+        display: none;
+    }
+    .ml-106px {
+    margin-left: 106px;
+    }
+}
+
+@media (max-width: 880px) {
+    .d-under880-none {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .landing {
+        height: 100%;
+    }
+    .w-max-ln {
+        max-width: 100%;
+    }
+    .cover-ext {
+        float: left;
+        height: 75px;
+        width: 75px;
+    }
+    .cover-deals {
+        float: left;
+        height: 75px;
+        width: 75px;
+    }
+    .cover-article {
+        height: 60vh;
+    }
+    .highlight {
+        justify-content: center;
+    }
+    .ml-106px {
+    margin-left: 0;
+    }
+    .vh-res-70 {
+        height: 35vh;
+    }
 }
