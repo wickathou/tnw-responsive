@@ -1,7 +1,6 @@
 # tnw-responsive
 A clone of The Next Web B.V. website, built using bootstrap, CSS and HTML
 
-
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
@@ -10,8 +9,6 @@ A clone of The Next Web B.V. website, built using bootstrap, CSS and HTML
 * [License](#license)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
-
-
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
