@@ -1,7 +1,4 @@
 # tnw-responsive
-<<<<<<< HEAD
-A clone page of The Next Web BV website using CSS and HTML
-=======
 A clone of The Next Web B.V. website, built using bootstrap, CSS and HTML
 
 
@@ -64,4 +61,3 @@ Project Link: [https://github.com/wickathou/tnw-responsive](https://github.com/w
 <!-- MARKDOWN LINKS & IMAGES -->
 
 https://thenextweb.com
->>>>>>> 607501e... Initial commit:
